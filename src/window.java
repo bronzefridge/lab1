@@ -1,4 +1,4 @@
-import javax.swing.*;
+﻿import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
@@ -277,3 +277,4 @@ public class window extends JFrame{
 		window obj=new window();
 	}
 }
+修改window.java

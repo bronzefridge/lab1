@@ -71,4 +71,4 @@ public class  GraphViz{
     public void end_graph() {
         graph.append("}") ;
     }   
-} 
+} 修改GraphViz.java

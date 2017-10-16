@@ -318,3 +318,4 @@ public class readin {
 		return 1;
 	}
 }
+修改readin.java
