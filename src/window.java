@@ -278,7 +278,11 @@ public class window extends JFrame{
 	}
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 another new window.java
 =======
 new window.java
 >>>>>>> C4
+=======
+new new window.java
+>>>>>>> B2

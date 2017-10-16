@@ -319,7 +319,11 @@ public class readin {
 	}
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 another new readin.java
 =======
 new readin.java
 >>>>>>> C4
+=======
+new new readin.java
+>>>>>>> B2

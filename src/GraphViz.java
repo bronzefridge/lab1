@@ -73,7 +73,11 @@ public class  GraphViz{
     }   
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 another new GraphViz.java
 =======
 new GraphViz.java
 >>>>>>> C4
+=======
+new new GraphViz.java
+>>>>>>> B2
