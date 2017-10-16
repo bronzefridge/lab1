@@ -72,4 +72,8 @@ public class  GraphViz{
         graph.append("}") ;
     }   
 }
+<<<<<<< HEAD
 another new GraphViz.java
+=======
+new GraphViz.java
+>>>>>>> C4

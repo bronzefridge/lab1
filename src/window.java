@@ -277,4 +277,8 @@ public class window extends JFrame{
 		window obj=new window();
 	}
 }
+<<<<<<< HEAD
 another new window.java
+=======
+new window.java
+>>>>>>> C4

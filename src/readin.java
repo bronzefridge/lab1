@@ -318,4 +318,8 @@ public class readin {
 		return 1;
 	}
 }
+<<<<<<< HEAD
 another new readin.java
+=======
+new readin.java
+>>>>>>> C4
