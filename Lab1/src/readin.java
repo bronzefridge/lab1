@@ -1,4 +1,4 @@
-import java.io.*;
+﻿import java.io.*;
 import java.util.*;
 public class readin {
 	public static HashMap<String,String> a=new HashMap<String,String>();
@@ -91,11 +91,20 @@ public class readin {
 		return res;
 	}
 	
-	public static String generateNewText(String inputText)
+	public static String generateNewText(String input)
 	{
 		String word1="";
 		String word2="";
+		String inputText="";
 		String res="";
+		for(int i=0;i<input.length();i++)
+		{
+			char ch=input.charAt(i);
+			if((ch>='a' && ch<='z')||(ch>='A' && ch<='Z'))
+				inputText=inputText+ch;
+			else if((ch>6 && ch<14)||(ch>31 && ch<35)||(ch>38 && ch<42)||ch==58||ch==59||ch==63||(ch>43&&ch<47)||ch==91||ch==93||ch==123||ch==125)
+				inputText=inputText+' ';
+		}
 		int i=0;
 		for(i=0;i<inputText.length();i++)
 		{
@@ -275,7 +284,7 @@ public class readin {
 		{
 			if((ch>='a' && ch<='z')||(ch>='A' && ch<='Z'))
 				cur=cur+(char)ch;
-			else if((ch>6 && ch<14)||(ch>31 && ch<35)||(ch>38 && ch<42)||ch==58||ch==59||ch==63||ch==44||ch==46||ch==91||ch==93||ch==123||ch==125)
+			else if((ch>6 && ch<14)||(ch>31 && ch<35)||(ch>38 && ch<42)||ch==58||ch==59||ch==63||(ch>43&&ch<47)||ch==91||ch==93||ch==123||ch==125)
 			{
 				if(cur.length()!=0)
 				{

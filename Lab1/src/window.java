@@ -1,4 +1,4 @@
-import javax.swing.*;
+﻿import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
@@ -228,6 +228,19 @@ public class window extends JFrame{
 		        //jl25.setIcon(new ImageIcon("random.gif"));
 		        try{
 					jl251.setIcon(new ImageIcon(ImageIO.read(new File("random.gif")))); 
+				}catch(IOException ee)
+				{
+					ee.printStackTrace();
+				}
+		        
+		        File output=new File(".\\output.txt");
+				readin.deleteFile("output.txt");
+				try
+				{
+					output.createNewFile();
+					FileWriter fileWriter=new FileWriter(output);
+					fileWriter.write(readin.randomroute);
+					fileWriter.close();
 				}catch(IOException ee)
 				{
 					ee.printStackTrace();
