@@ -1,4 +1,4 @@
-import java.io.File;
+﻿import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -71,4 +71,4 @@ public class  GraphViz{
     public void end_graph() {
         graph.append("}") ;
     }   
-} 修改GraphViz.java
+}

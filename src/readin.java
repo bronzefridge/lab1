@@ -1,4 +1,4 @@
-import java.io.*;
+﻿import java.io.*;
 import java.util.*;
 public class readin {
 	public static HashMap<String,String> a=new HashMap<String,String>();
@@ -318,4 +318,3 @@ public class readin {
 		return 1;
 	}
 }
-修改readin.java

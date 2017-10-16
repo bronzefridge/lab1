@@ -277,4 +277,3 @@ public class window extends JFrame{
 		window obj=new window();
 	}
 }
-修改window.java
