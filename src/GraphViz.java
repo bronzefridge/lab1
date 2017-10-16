@@ -72,3 +72,4 @@ public class  GraphViz{
         graph.append("}") ;
     }   
 }
+new new GraphViz.java

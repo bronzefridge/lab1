@@ -277,3 +277,4 @@ public class window extends JFrame{
 		window obj=new window();
 	}
 }
+new new window.java
